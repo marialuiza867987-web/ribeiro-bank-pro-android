@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Ribeiro Bank",
+    "slug": "ribeiro-bank",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B0D"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.ribeirobank.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B0B0D"
+      }
+    },
+    "extra": {
+      "apiUrl": "http://SEU_IP_LOCAL:4000"
+    }
+  }
+}
